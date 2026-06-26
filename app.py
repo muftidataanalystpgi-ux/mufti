@@ -6,16 +6,15 @@ from streamlit_folium import folium_static
 # Set layout halaman agar lebar penuh
 st.set_page_config(layout="wide")
 
-st.title("📍 Geospatial Financial Dashboard - Branch Growth Segmentation")
+st.title(Geospatial Financial Dashboard - Branch Growth Segmentation")
 st.markdown("""
-**Disclaimer:** All data presented here is entirely synthetic and randomised to maintain data confidentiality 
-and comply with NDA regulations while preserving architectural and logical depth.
+**Disclaimer:**Semua data yang disajikan di sini sepenuhnya bersifat sintetis dan diacak untuk menjaga kerahasiaan data serta mematuhi peraturan NDA, dengan tetap mempertahankan kedalaman arsitektur dan logisnya.
 """)
 
 # Load dataset dummy yang aman
 @st.cache_data
 def load_data():
-    return pd.read_csv("df_persen_growth.csv")
+    return pd.read_csv("df_dummy.csv")
 
 df = load_data()
 
