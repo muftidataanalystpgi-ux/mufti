@@ -6,7 +6,7 @@ from streamlit_folium import folium_static
 # Set layout halaman agar lebar penuh
 st.set_page_config(layout="wide")
 
-st.title(Geospatial Financial Dashboard - Branch Growth Segmentation")
+st.title("Geospatial Financial Dashboard - Branch Growth Segmentation")
 st.markdown("""
 **Disclaimer:**Semua data yang disajikan di sini sepenuhnya bersifat sintetis dan diacak untuk menjaga kerahasiaan data serta mematuhi peraturan NDA, dengan tetap mempertahankan kedalaman arsitektur dan logisnya.
 """)
